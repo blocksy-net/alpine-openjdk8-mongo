@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-RUN apk add --no-cache mongodb && rm /usr/bin/mongoperf
+RUN apk add --no-cache mongodb
 
 VOLUME "/data/db"
 
