@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-alpine3.8
 RUN apk add --no-cache mongodb
 
 VOLUME "/data/db"
