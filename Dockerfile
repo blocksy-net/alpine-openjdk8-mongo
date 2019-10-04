@@ -1,6 +1,5 @@
 FROM openjdk:8-jdk-alpine
-RUN fetch http://dl-cdn.alpinelinux.org/alpine/v3.7/community/x86_64/APKINDEX.tar.gz
-RUN apk add --no-cache mongodb==3.6.7-r0
+RUN apk add --no-cache mongodb
 
 VOLUME "/data/db"
 
